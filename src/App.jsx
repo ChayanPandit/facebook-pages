@@ -1,12 +1,8 @@
 
-import {LoginSocialFacebook} from 'reactjs-social-login'
-import { FacebookLoginButton } from 'react-social-login-buttons'
 import FacebookLogin from 'react-facebook-login';
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
 import { CiCircleInfo, CiUser } from "react-icons/ci";
 import { FaArrowRight } from 'react-icons/fa';
-import axios from 'axios';
 
 export default function App() {
 
